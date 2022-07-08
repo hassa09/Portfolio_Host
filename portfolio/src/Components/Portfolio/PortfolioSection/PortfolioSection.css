@@ -1,0 +1,50 @@
+.portfolio-section-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    
+    border: 3px;
+    border-color: blue;
+    border-style: solid;
+
+}
+
+
+.portfolio-section-banner {
+    display: flex;
+    width: 100%;
+    height: 10vw;
+    
+    border: 3px;
+    border-color: orange;
+    border-style: solid;
+}
+.portfolio-section-header {
+    width: 30vw;
+    height: 10vw;
+    
+    border: 3px;
+    border-color: green;
+    border-style: solid;
+}
+.portfolio-section-tab {
+    width: 100%;
+    height: 10vw;
+    
+    border: 3px;
+    border-color: green;
+    border-style: solid;
+}
+
+.portfolio-section-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    border: 3px;
+    border-color: yellow;
+    border-style: solid;
+}
