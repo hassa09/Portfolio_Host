@@ -2,7 +2,7 @@
 Portfolio Hosting Page. this will be updated soon...
 
 
-Plan
+Breakdown Plan of the 
 
 ## Sections
 - NavBar
@@ -13,18 +13,18 @@ Plan
   -Contact
    -CV
 -Intro (1x component)
-    Hi
-    Name
-    Role
-    Summary
-    (contact) button
-About (1x component)
-    Header
-    Left
-    Summary
-    Tech Icons
-    Right
-    Profile Photo
+    -Hi
+    _Name
+    -Role
+    -Summary
+    -(contact) button
+-About (1x component)
+    -Header
+    -Left
+    -Summary
+    -Tech Icons
+    -Right
+    -Profile Photo
 -Portfolio (2x components)
     -Nav bar{toggle betweeen design and development}
     -header
@@ -46,3 +46,4 @@ About (1x component)
     -button (contact)
 
 figma design
+![image](https://user-images.githubusercontent.com/90926637/178107778-77b2c747-6189-4e21-a688-5e08c2cd7ab2.png)
