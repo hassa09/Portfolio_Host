@@ -46,4 +46,6 @@ Breakdown Plan of the
     -button (contact)
 
 figma design
-![image](https://user-images.githubusercontent.com/90926637/178107778-77b2c747-6189-4e21-a688-5e08c2cd7ab2.png)
+![image](https://user-images.githubusercontent.com/90926637/178107778-77b2c747-6189-4e21-a688-5e08c2cd7ab2.png) ![image](https://user-images.githubusercontent.com/90926637/178107895-291da1c6-8bf3-41fb-b166-8d5710c0e776.png)
+
+
