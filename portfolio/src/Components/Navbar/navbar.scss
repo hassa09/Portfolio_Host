@@ -8,6 +8,7 @@
 
 .navlogo {
     margin-left: 3.445rem;
+    color: #DD6031;
 
 
 
@@ -15,6 +16,7 @@
 
 .navbar {
     margin: 0 auto;
+    position: right;
 
 }
 
@@ -29,7 +31,7 @@ ul {
         a {
             text-decoration: none;
             text-transform: uppercase;
-            color: #000;
+            color: orangered;
 
             &:hover {
                 border-bottom: 3px solid #DD6031;
@@ -85,8 +87,8 @@ ul {
         align-items: center;
         position: fixed;
         inset: 0;
-        background: rgb(34, 36, 58);
-        transition: 1450ms ease;
+        background: rgb(9, 9, 9);
+        transition: 14ms ease;
     }
 
 
