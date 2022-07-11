@@ -1,6 +1,5 @@
 import "../portfolio.css";
 import Tab from "../TabComponent/Tab";
-import DesignTab from "../DesignTab/DesignTab";
 
 function PortfolioSection () {
     return (
@@ -12,7 +11,7 @@ function PortfolioSection () {
                 </div>
             </div>
             <div className="portfolio-section-main"> 
-                <Tab />
+                <Tab /> 
             </div>
         </div>
     );
