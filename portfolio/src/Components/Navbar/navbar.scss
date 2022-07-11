@@ -1,3 +1,9 @@
+
+*::before,
+*::after {
+    box-sizing: border-box;
+
+}
 .header {
     width: 100%;
     display: flex;
@@ -13,7 +19,17 @@
 
 
 }
+.header{
+    .resumeLink{
+    color: black;
+    margin-left: 15px;
+    font-size: var(--fz-xs);
 
+
+}
+
+
+}
 .navbar {
     margin: 0 auto;
     position: right;
@@ -61,13 +77,16 @@ ul {
 
 }
 
-.resumeLink{
+.resume-button{
+   
+    color: white;
     width: 100%;
+    text-align: center;
     display: flex;
     align-items: center;
     position: right absolute;
     z-index: 1;
-
+    text-decoration: none;
 }
 
 

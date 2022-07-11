@@ -15,7 +15,11 @@ function Navbar() {
     <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
       CV
     </a>
-  );
+    );
+
+
+
+    
     return (
         
         <div className='header'>
@@ -40,21 +44,22 @@ function Navbar() {
                     <li>
                         <Link to='/'>Contact</Link>
                     </li>
-                    {/* <li>
-                        <button to='/'>CV</button>
+                    <li className='resumeLink'>
+                        <button to='/'>{resumeLink}</button>
                     </li>
-                     */}
+                    
                 </ul>
                 
             </nav>
 
             {/* handed display function as prop for menu icon functionanility when it's used on small devices eg mobile devices*/}
-            
-            <div className='resumeLink'>{resumeLink}</div>
+
+
             <div className="menubar">
                 <MenuOutlined className='menu' onClick={DisplayMenu}/>
             </div>
         </div>
+        
 
     )
 }

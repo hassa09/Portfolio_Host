@@ -14,11 +14,11 @@ function about() {
                 <div mainCotent>
                     <div className='text'>
               <p>HI, my name is</p>
-              <h1>Hassan.</h1>
-              <h2>i design & develope thigs.</h2>
+              <h1>'your name here.'</h1>
+              <h2>i design & develope things.</h2>
               <p> i am full stack developer & Cyber security analyst. i've just completed the prestigious School of code,looking to enter the world of software developement.</p>
 
-                        <button>get in touch </button>
+              <button className='getInT'>get in touch </button>
               <div className='icons'>
                   <GitHub className='icon' />
                   <LinkedIn className='icon'  />
