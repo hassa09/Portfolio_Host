@@ -44,8 +44,8 @@ function Navbar() {
                     <li>
                         <Link to='/'>Contact</Link>
                     </li>
-                    <li className='resumeLink'>
-                        <button to='/'>{resumeLink}</button>
+                    <li id='resumeLink'>
+                    {resumeLink}
                     </li>
                     
                 </ul>
