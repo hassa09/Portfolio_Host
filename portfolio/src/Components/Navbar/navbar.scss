@@ -44,7 +44,7 @@ ul {
         list-style: none;
         margin: 1rem;
 
-
+//
         a {
             text-decoration: none;
             text-transform: uppercase;
@@ -90,14 +90,9 @@ ul {
 }
 
 .menubar {
-    display: flex;
-    margin-right: 1.555rem;
-
-    .menu {
-        cursor: pointer;
-        display: none;
-
-    }
+    display: none;
+    // margin-right: 1.555rem;
+    // z-index: 0;
 
 }
 
@@ -119,7 +114,7 @@ ul {
     text-decoration: none;
 }
 
-
+//styling for mobile devices
 @media (max-width:850px) {
     .header {
         justify-content: space-between;
@@ -164,11 +159,18 @@ ul {
         }
     }
 
-    .closed .close {
+    .closed .closed {
         display: block;
     }
 
-    .navbar {
-        margin-left: .445rem;
-    }
+    // .navbar {
+    //     margin-left: .445rem;
+    // }
+
+    .menubar {
+    display: flex;
+    margin-right: 1.555rem;
+    z-index: 0;
+
+}
 }

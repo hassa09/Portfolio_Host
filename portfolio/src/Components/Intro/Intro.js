@@ -19,9 +19,9 @@ function Intro () {
                     
 
                 </div>
-                <div className="about-section-right">
-                    <img className="about-section-profile-photo" src={require('/Users/leowall/Documents/SchoolOfCode/Portfolio/portfolioWebPage/Portfolio_Host/portfolio/src/Images/pngegg.png')} alt={"profile picture image"}/>
-                </div>
+                {/* <div className="about-section-right">
+                    <img className="about-section-profile-photo" src={require('spiderman.png')} alt={"profile picture image"}/>
+                </div> */}
 
             </div>
         </div>
