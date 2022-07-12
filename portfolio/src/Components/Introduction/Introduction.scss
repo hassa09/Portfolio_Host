@@ -10,10 +10,6 @@
     flex-direction: column;
     width: 100vw;
     height: auto;
-
-    border-style: solid;
-    border-color: #DD6031;
-    border-radius: 5px;
 }
 
 .intro-main{
@@ -23,10 +19,6 @@
     height: 100%;
     flex-direction: row;
     text-align: center;
-
-    border-style: solid;
-    border-color: #DD6031;
-    border-radius: 5px;
 }
 
 .intro-main-left{
@@ -38,10 +30,6 @@
   
     width: 7vw;
     height: 100%;
-
-    border-style: solid;
-    border-color: #DD6031;
-    border-radius: 5px;
 
     .intro-main-left-icons{
         display: flex;
@@ -65,9 +53,6 @@
     width: 93%;
     height: 100%;
 
-    border-style: solid;
-    border-color: #DD6031;
-    border-radius: 5px;
     .intro-main-text-hi{
         font-family: 'Inter';
         font-style: normal;
@@ -77,9 +62,9 @@
 
         padding: 0px;
         margin: 0px;
-        .intro-main-text-hi em{
-            color: #ffffff;
-        }
+    }
+    .intro-main-text-hi em{
+        color: #ffffff;
     }
     .intro-main-text-name{
         font-family: 'Inter';
@@ -107,6 +92,7 @@
         font-weight: 600;
         font-size: 28px;
         color: #DCDCDC;
+        width: 60%;
     }
     .intro-main-text-summary em{
         color: #DD6031;
