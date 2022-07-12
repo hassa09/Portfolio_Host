@@ -26,7 +26,7 @@ function Navbar() {
             <div className='navlogo'>
                 <h1>HA</h1>
             </div>
-            <nav className={active ? 'navbar':'navbar'}>
+            <nav className={active ? 'navbar':'closed'}>
                 <ul>
                     <div className='closed'>
                         <Close className='closed' onClick={DisplayMenu}/>

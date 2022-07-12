@@ -1,9 +1,12 @@
+@import '../../color.scss';
+
+
 .about {
     min-height: 100vh;
     position: relative;
     margin: 0 0 0 108.08px;
     width: 100vw;
-    background-color: #172A4E;
+    background-color: $background-color;//css variable.
     position: relative;
 
 
