@@ -12,10 +12,23 @@
 
 
 }
-.getInT{
-    margin-left: 15px;
-    font-size: var(--fz-xs);
+.getInTouch{
+    background-color: $background-color;
+    border: 3px;
+    border-style: solid;
+    border-color: $heading-text-colors;
+    border-radius: 5px;
+    color: $the-dot-docoration-color;
 
+    font-family: "inter";
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5%;
+
+    transition-duration: 0.4s;
 }
 
 .aboutContainer {
@@ -24,7 +37,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    color: orangered;
+    color: $heading-text-colors;
     
 }
 

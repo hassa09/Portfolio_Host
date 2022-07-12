@@ -1,3 +1,4 @@
+@import '../../color.scss';
 *::before,
 *::after {
     box-sizing: border-box;
@@ -13,7 +14,7 @@
 
 .navlogo {
     margin-left: 3.445rem;
-    color: #DD6031;
+    color: $heading-text-colors;
 
 
 
@@ -21,7 +22,7 @@
 
 .header {
     .resumeLink {
-        color: black;
+        color: $background-color;
         margin-left: 15px;
         font-size: var(--fz-xs);
 
@@ -48,12 +49,12 @@ ul {
         a {
             text-decoration: none;
             text-transform: uppercase;
-            color: orangered;
+            color: $heading-text-colors;
             min-width: 130px;
             padding: 10px 0;
 
             &:hover {
-                border-bottom: 3px solid #DD6031;
+                border-bottom: 3px solid $heading-text-colors;
 
             }
 
@@ -71,7 +72,7 @@ ul {
 
             min-width: 130px;
             padding: 10px 0;
-            border: 3px solid #DD6031;
+            border: 3px solid $heading-text-colors;
             border-radius: 5px;
             background-color: transparent;
             display:block;
@@ -81,7 +82,7 @@ ul {
             
             
 
-            color: #FFFFFF
+            color: $heading-text-colors
         }
 
     }
@@ -104,7 +105,7 @@ ul {
 
 .resume-button {
 
-    color: white;
+    color: $heading-text-colors;
     width: 100%;
     text-align: center;
     display: flex;
@@ -131,7 +132,7 @@ ul {
         align-items: center;
         position: fixed;
         inset: 0;
-        background: rgb(179, 167, 167);
+        background: $heading-text-colors;
         transition: 14ms ease;
     }
 
@@ -147,7 +148,7 @@ ul {
 
             a {
                 font-size: 20px;
-                color: rgb(228, 216, 216);
+                color: $the-dot-docoration-color;
                 font-weight: bolder;
             }
         }

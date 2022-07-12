@@ -16,7 +16,7 @@ function Introduction() {
                       <h2>i design & develope things.</h2>
                       <p> i am full stack developer & Cyber security analyst. i've just completed the prestigious School of code,looking to enter the world of software developement.</p>
 
-              <button className='getInT'>get in touch </button>
+              <button className='getInTouch'>get in touch </button>
               <div className='icons'>
                   <GitHub className='icon' />
                   <LinkedIn className='icon'  />

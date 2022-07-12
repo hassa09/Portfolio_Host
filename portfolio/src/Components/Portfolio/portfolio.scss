@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import '../../color.scss';
 
 /*PORTFOLIO SECTION*/
 
@@ -38,7 +38,7 @@
     font-size: 30px;
     line-height: 44px;
 
-    color: #DD6031;
+    color: $heading-text-colors;
 }
 .portfolio-header-wording em{
     font-family: 'Inter';
@@ -47,7 +47,7 @@
     font-size: 30px;
     line-height: 44px;
 
-    color: #ffffff;
+    color: $the-dot-docoration-color;
 }
 
 /*PORTFOLIO INDIVIDUAL CODE*/
@@ -72,11 +72,11 @@
     height: 60vh;
     
     margin-inline: 2vw;
-    background: #172A4E;
+    background: $the-dot-docoration-color;
     border-radius: 10px;
 
     font-family: "Inter";
-    color: #ffffff;
+    color: $the-dot-docoration-color;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -86,7 +86,7 @@
     width: 100%;
     height: 40%;
     
-    background-color: #ffffff;
+    background-color: $the-dot-docoration-color;
     border-radius: 5px;
     font-family: "Inter";
 }
@@ -106,7 +106,7 @@
 .portfolio-individual-icons {
     width: 100%;
     height: 15%;  
-    border-bottom: 1.5px solid white;
+    border-bottom: 1.5px solid $the-dot-docoration-color;
 
 
 }
@@ -126,7 +126,7 @@
     line-height: 29px;
     display: flex;
     justify-content: center;
-    color: #ffffff;
+    color: $the-dot-docoration-color;
     list-style-type: none;
     padding-inline: 5%;
     margin-top: 5%;
@@ -138,7 +138,7 @@ li{
 }
 
 .tab-box{
-    border-bottom: 6.5px solid white;
+    border-bottom: 6.5px solid $the-dot-docoration-color;
     margin-inline: 30vw;
     margin-bottom: 5vh;
     padding-bottom: 2vh;

@@ -1,4 +1,5 @@
-import './About.css'
+import './About.scss'
+import pngegg from '../../images/pngegg.png'
 
 function About () {
 
@@ -20,7 +21,7 @@ function About () {
 
                 </div>
                 <div className="about-section-right">
-                    <img className="about-section-profile-photo" src={require('/Users/leowall/Documents/SchoolOfCode/Portfolio/portfolioWebPage/Portfolio_Host/portfolio/src/Images/pngegg.png')} alt={"profile picture image"}/>
+                    <img src={pngegg} alt=""/>
                 </div>
 
             </div>
