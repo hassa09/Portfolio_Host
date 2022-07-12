@@ -17,25 +17,27 @@ const handleTab1 = () => {
   };
 
   return (
-    <div className="Tabs">
+    <div className="tab-container">
       {/* Tab nav */}
-      <ul className="nav">
-  <li
-    className={activeTab === "tab1" ? "active" : ""}
-    onClick={handleTab1}
-  >
-    Design
-  </li>
-  <li
-    className={activeTab === "tab2" ? "active" : ""}
-    onClick={handleTab2}
-  >
-    Develop
-  </li>
-</ul>
+       <div className="tab-box">
+       <ul className="nav">
+          <li
+            className={activeTab === "tab1" ? "active" : ""}
+            onClick={handleTab1}
+          >
+            Design
+          </li>
+          <li
+            className={activeTab === "tab2" ? "active" : ""}
+            onClick={handleTab2}
+          >
+            Develop
+          </li>
+        </ul>
+       </div>
+        
       <div className="outlet">
           {activeTab === "tab1" ? <DesignTab /> : <DevelopmentTab />}
-    
       </div>
     </div>
   );
