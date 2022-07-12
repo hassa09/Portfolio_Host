@@ -9,8 +9,8 @@ Plan
     - Logo
     - Links
     - About
-Portfolio
-Contact
+    - Portfolio
+    - Contact
 CV
 Intro (1x component)
 Hi
@@ -44,3 +44,19 @@ Header
 'get in touch'
 summary
 button (contact)
+
+
+
+
+## PORTFOLIO PLAN
+
+have a tab which renders 3 Dev & Design projects 
+
+Design 
+- Make a design.js file
+- Make an array of objects with each design project
+    - Image, title, summary, technologies, links
+- make the template for one
+    - map through the array and render the project
+    - set up the CSS
+- make it output all 3 projects

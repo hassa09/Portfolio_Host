@@ -4,11 +4,8 @@ import Tab from "../TabComponent/Tab";
 function PortfolioSection () {
     return (
         <div className="portfolio-section-container">
-            <div className="portfolio-section-banner"> 
-                <div className="portfolio-section-header">Portfolio</div>
-                <div className="portfolio-section-tab">
-                    {/* <Tab /> */}
-                </div>
+            <div className="portfolio-section-header">
+                <h1 className="portfolio-header-wording">Portfolio<em>.</em></h1>
             </div>
             <div className="portfolio-section-main"> 
                 <Tab /> 

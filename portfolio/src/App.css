@@ -1,10 +1,11 @@
 .App {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  flex-direction: column;
 
   border: 3px;
   border-color: red;
