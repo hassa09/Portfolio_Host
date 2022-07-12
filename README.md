@@ -2,13 +2,24 @@
 Portfolio Hosting Page. this will be updated soon...
 
 
-Breakdown Plan of the 
 
-## Sections
-- NavBar
-    - Logo
-    - Links
-    - About
+
+
+
+
+## PORTFOLIO PLAN
+
+have a tab which renders 3 Dev & Design projects 
+
+Design 
+- Make a design.js file
+- Make an array of objects with each design project
+    - Image, title, summary, technologies, links
+- make the template for one
+    - map through the array and render the project
+    - set up the CSS
+- make it output all 3 projects
+
 -Portfolio
   -Contact
    -CV
