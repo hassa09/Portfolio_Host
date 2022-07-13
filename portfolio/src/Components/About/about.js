@@ -21,7 +21,7 @@ function About () {
 
                 </div>
                 <div className="about-section-right">
-                    <img src={brack} alt=""/>
+                    <img className='about-section-profile-photo' src={brack} alt=""/>
                 </div>
 
             </div>

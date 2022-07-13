@@ -1,4 +1,5 @@
-@import '../../App.scss';
+
+@import '../../color.scss';
 
 
 /*PORTFOLIO SECTION*/
@@ -73,7 +74,7 @@
     height: 60vh;
     
     margin-inline: 2vw;
-    background: #172A4E;
+    background:$project-background-color;
     border-radius: 10px;
 
     font-family: "Inter";
