@@ -7,26 +7,24 @@ import './Introduction.scss';
 
 function Introduction() {
     return (
-      <div main className='about'>
-            <div className='aboutContainer'>
-                <div mainCotent>
-                    <div className='text'>
-                      <p>HI, my name is</p>
-                      <h1>'your name here.'</h1>
-                      <h2>i design & develope things.</h2>
-                      <p> i am full stack developer & Cyber security analyst. i've just completed the prestigious School of code,looking to enter the world of software developement.</p>
-
-              <button className='getInTouch'>get in touch </button>
-              <div className='icons'>
-                  <GitHub className='icon' />
-                  <LinkedIn className='icon'  />
-                  <Twitter className='icon' />
-                  
-             </div>
-              </div>
-              
+      <div main className='intro-container'>
+        <div className='intro-main'>
+          <div className='intro-main-left'>
+            <div className='intro-main-left-icons'>
+              <GitHub className='icon' />
+              <LinkedIn className='icon'  />
+              <Twitter className='icon' />
             </div>
-          
+          </div>
+          <div className='intro-main-right'>
+            <text className='intro-main-text'>
+              <p className='intro-main-text-hi'>Hi<em>,</em> my name is</p>
+              <h1 className='intro-main-text-name'>Leo Wall</h1>
+              <h2 className='intro-main-text-role'>I design & develope things.</h2>
+              <p className='intro-main-text-summary'> I am <em>full stack developer</em> & <em>Cyber security analyst</em>. I've just completed the prestigious School of code,looking to enter the world of software developement.</p>
+              <button className='intro-main-button'>get in touch </button>       
+            </text>
+          </div>
         </div>
       </div>
   )
