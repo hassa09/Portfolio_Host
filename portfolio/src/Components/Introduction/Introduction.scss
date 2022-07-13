@@ -10,6 +10,7 @@
     flex-direction: column;
     width: 100vw;
     height: auto;
+    margin-top: 5%;
 }
 
 .intro-main{
@@ -31,12 +32,17 @@
     width: 7vw;
     height: 100%;
 
+
     .intro-main-left-icons{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
+
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
 
         .icon{
             color: #ffffff;

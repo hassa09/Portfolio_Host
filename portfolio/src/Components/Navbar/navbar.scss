@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *::before,
 *::after {
     box-sizing: border-box;
@@ -5,19 +7,36 @@
 }
 
 .header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    background: #061A40;
+
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     z-index: 1;
+    justify-content: space-between;
+    
+}
+.nav-left{
+    width: 7%;
+    text-align: center;
+    position:sticky;
+    
+    .navlogo {
+        // margin-left: 3.445rem;
+        color: #DD6031;
+        font-family: 'inter';
+    }
 }
 
-.navlogo {
-    margin-left: 3.445rem;
-    color: #DD6031;
-
-
+.nav-right{
+    width: 50%;
 
 }
+
 
 .header {
     .resumeLink {
@@ -43,12 +62,17 @@ ul {
     li {
         list-style: none;
         margin: 1rem;
+        font-family: 'inter';
+        padding: 0%;
+
+
 
 //
         a {
             text-decoration: none;
             text-transform: uppercase;
-            color: orangered;
+            // color: orangered;
+            color: #FFFFFF;
             min-width: 130px;
             padding: 10px 0;
 
