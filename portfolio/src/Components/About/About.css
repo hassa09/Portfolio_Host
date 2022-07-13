@@ -18,10 +18,7 @@
     text-align: left;
     margin-left: 7vw;   
     margin-top: 10vh; 
-    /* margin-bottom: 5%; */
-    border-style: solid;
-    border-color: #DD6031;
-    border-radius: 5px;
+
 }
 .about-section-main{
     display: flex;

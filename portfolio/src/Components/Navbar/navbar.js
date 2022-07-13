@@ -22,35 +22,40 @@ function Navbar() {
     
     return (
         
-        <div className='header'>
-            <div className='navlogo'>
-                <h1>HA</h1>
-            </div>
-            <nav className={active ? 'navbar':'closed'}>
-                <ul>
-                    <div className='closed'>
-                        <Close className='closed' onClick={DisplayMenu}/>
-                    </div>
 
-                    <li>
-                        <Link to='/'>About</Link>
-                    </li>
-                    <li>
-                        <Link to='/'>Skills</Link>
-                    </li>
-                    <li>
-                        <Link to='/'>Portfolio</Link>
-                    </li>
-                    <li>
-                        <Link to='/'>Contact</Link>
-                    </li>
-                    <li id='resumeLink'>
-                    {resumeLink}
-                    </li>
-                    
-                </ul>
+
+        <div className='header'>
+            <div className='nav-left'>
+                <div className='navlogo'>
+                    <h1>HA</h1>
+                </div>
+            </div>
+            <div className='nav-right'>
+                <nav className={active ? 'navbar':'closed'}>
+                    <ul>
+                        <div className='closed'>
+                            <Close className='closed' onClick={DisplayMenu}/>
+                        </div>
+
+                        <li>
+                            <Link to='/'>About</Link>
+                        </li>
+                        <li>
+                            <Link to='/'>Skills</Link>
+                        </li>
+                        <li>
+                            <Link to='/'>Portfolio</Link>
+                        </li>
+                        <li>
+                            <Link to='/'>Contact</Link>
+                        </li>
+                        <li id='resumeLink'>
+                        {resumeLink}
+                        </li>
+                    </ul>
+                </nav>
+            </div>
                 
-            </nav>
 
             {/* handed display function as prop for menu icon functionanility when it's used on small devices eg mobile devices*/}
 
