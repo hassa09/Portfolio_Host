@@ -11,10 +11,18 @@ function App() {
     <div className="App">
       {/* <NewNavbar /> */}
       <Navbar />
-      <Introduction />
-      <About />
-      <PortfolioSection />
-      <Contact />
+      <section id='intro-section'>
+        <Introduction />
+      </section>
+      <section id="about-section">
+        <About />
+      </section>
+      <section id="portfolio-section">
+        <PortfolioSection />
+      </section>
+      <section id="contact-section">
+        <Contact />
+      </section>
     </div>
   );
 }
