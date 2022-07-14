@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import '../../color.scss';
 
 /*ABOUT SECTION*/
 
@@ -60,7 +60,7 @@
     font-size: 30px;
     line-height: 44px;
 
-    color: #DD6031;
+    color: $heading-text-colors;
 }
 .about-section-header-wording em{
     font-family: 'Inter';
@@ -69,14 +69,14 @@
     font-size: 30px;
     line-height: 44px;
 
-    color: #ffffff;
+    color: $the-dot-docoration-color;
 }
 .about-section-left{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    color: #DCDCDC;
+    color: $secondary-font-color;
 
 }
 .about-section-left em{
@@ -84,7 +84,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    color: #DD6031;    
+    color: $heading-text-colors;    
 }
 
 /*ABOUT SECTION P TAGS*/

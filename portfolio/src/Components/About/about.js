@@ -1,4 +1,6 @@
-import './About.css'
+import '../About/about.scss';
+import brack from './../../images/pngegg.png'
+
 
 function About () {
 
@@ -20,9 +22,8 @@ function About () {
 
                 </div>
                 <div className="about-section-right">
-                    <img className="about-section-profile-photo" src={require('/Users/leowall/Documents/SchoolOfCode/Portfolio/portfolioWebPage/Portfolio_Host/portfolio/src/Images/pngegg.png')} alt={"profile picture image"}/>
+                    <img className='about-section-profile-photo' src={brack} alt="" />
                 </div>
-
             </div>
         </div>
     )

@@ -1,6 +1,11 @@
-import { GitHub, LinkedIn, Twitter } from '@material-ui/icons';
-
+// import { GitHub, LinkedIn, Twitter } from '@material-ui/icons';
 import React from 'react';
+import '../social-icons/socialicons.scss'
+import Socialicons from '../social-icons/socialicons';
+
+
+
+
 
 // import Navbar from '../Navbar/navbar';
 import './Introduction.scss';
@@ -10,11 +15,6 @@ function Introduction() {
       <div main className='intro-container'>
         <div className='intro-main'>
           <div className='intro-main-left'>
-            <div className='intro-main-left-icons'>
-              <GitHub className='icon' />
-              <LinkedIn className='icon'  />
-              <Twitter className='icon' />
-            </div>
           </div>
           <div className='intro-main-right'>
             <text className='intro-main-text'>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import '../../color.scss';
 
 /*CONTACT SECTION*/
 
@@ -39,7 +39,7 @@
     font-size: 30px;
     line-height: 44px;
 
-    color: #DD6031;
+    color: $heading-text-colors;
 }
 .contact-header-wording em{
     font-family: 'Inter';
@@ -48,7 +48,7 @@
     font-size: 30px;
     line-height: 44px;
 
-    color: #ffffff;
+    color: $the-dot-docoration-color;
 }
 
 /*CONTACT MAIN WORDING*/
@@ -58,21 +58,21 @@
     font-style: normal;
     font-weight: 700;
     font-size: 128px;
-    color: #ffffff;
+    color: $the-dot-docoration-color;
 }
 .contact-main-get-in-touch em{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 128px;
-    color: #DD6031;
+    color: $heading-text-colors;
 }
 .contact-main-summary{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
-    color: #DCDCDC;
+    color: $secondary-font-color;
     margin-left: 15vw;
     margin-right: 15vw;
 }
@@ -82,16 +82,16 @@
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
-    color: #DD6031;
+    color: $heading-text-colors;
     
 }
 .contact-main-button {
-    background-color: #061A40;
+    background-color: $background-color;
     border: 3px;
     border-style: solid;
-    border-color: #DD6031;
+    border-color: $heading-text-colors;
     border-radius: 5px;
-    color: #ffffff;
+    color: $the-dot-docoration-color;
 
     font-family: "inter";
     padding: 15px 32px;
@@ -105,5 +105,5 @@
 }
 
 .contact-main-button:hover {
-    background-color: #DD6031; 
+    background-color: $heading-text-colors; 
 }
