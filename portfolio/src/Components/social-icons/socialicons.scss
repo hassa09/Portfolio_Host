@@ -1,27 +1,19 @@
 @import '../../color.scss';
 
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    align-items: flex-start;
+    margin-left: 2vw;
 
-
-
-    
-
-    .social-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
-        text-align: center;
-        align-items: flex-start;
-       margin-left: 2vw;
-
-       position: -webkit-sticky;
-       position: sticky;
-       top: 500px;
-    //    width: 7vw;
-    //    height: 100%;
-
-
-
+    position: -webkit-sticky;
+    position: sticky;
+    top: 500px;
+//    width: 7vw;
+//    height: 100%;
 
         .icon{
             color: $the-dot-docoration-color;

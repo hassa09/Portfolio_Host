@@ -1,6 +1,5 @@
 import '../About/about.scss';
-import brack from './../../images/pngegg.png'
-
+import pngegg from '../../Images/pngegg.png'
 
 function About () {
 
@@ -22,7 +21,7 @@ function About () {
 
                 </div>
                 <div className="about-section-right">
-                    <img className='about-section-profile-photo' src={brack} alt="" />
+                    <img className='about-section-profile-photo' src={pngegg} alt="" />
                 </div>
             </div>
         </div>
