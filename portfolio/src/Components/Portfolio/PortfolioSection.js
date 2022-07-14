@@ -1,5 +1,5 @@
-import "./portfolio.css";
-import Tab from "./Tab";
+import './portfolio.scss';
+import Tab from './Tab'
 
 function PortfolioSection () {
     return (

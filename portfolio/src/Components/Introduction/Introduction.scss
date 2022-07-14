@@ -1,7 +1,4 @@
 @import '../../color.scss';
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-
 
 /*INTRO SECTION*/
 
@@ -32,24 +29,8 @@
     width: 7vw;
     height: 100%;
 
-
-    .intro-main-left-icons{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-
-        .icon{
-            color: #ffffff;
-            margin-bottom: 1rem;
-        }
-    }
 }
+
 .intro-main-right{
     display: flex;
     justify-content: center;
@@ -64,20 +45,20 @@
         font-style: normal;
         font-weight: 400;
         font-size: 36px;
-        color: #DD6031;
+        color: $heading-text-colors;
 
         padding: 0px;
         margin: 0px;
     }
     .intro-main-text-hi em{
-        color: #ffffff;
+        color:$secondary-font-color;
     }
     .intro-main-text-name{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 128px;
-        color: #ffffff;
+        color: $the-dot-docoration-color;
 
         padding: 0px;
         margin: 0px;
@@ -87,7 +68,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 96px;
-        color: #DCDCDC;
+        color: $secondary-font-color;
 
         padding: 0px;
         margin: 0px;
@@ -97,23 +78,23 @@
         font-style: normal;
         font-weight: 600;
         font-size: 28px;
-        color: #DCDCDC;
+        color: $secondary-font-color;
         width: 60%;
     }
     .intro-main-text-summary em{
-        color: #DD6031;
+        color: $heading-text-colors;
         font-style: normal;
     }
 }
 
 /*INTRO BUTTON*/
 .intro-main-button {
-    background-color: #061A40;
+    background-color:$background-color;
     border: 3px;
     border-style: solid;
-    border-color: #DD6031;
+    border-color: $heading-text-colors;
     border-radius: 5px;
-    color: #ffffff;
+    color: $the-dot-docoration-color;
 
     font-family: "inter";
     padding: 15px 32px;
@@ -129,5 +110,5 @@
 }
 
 .intro-main-button:hover {
-    background-color: #DD6031; 
+    background-color: $heading-text-colors; 
 }
