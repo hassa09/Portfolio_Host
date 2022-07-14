@@ -31,7 +31,7 @@ function Navbar() {
                     to="intro-section"
                     spy={true}
                     smooth={true}
-                    offset={-150}
+                    offset={-200}
                     duration={500}>
                     <h1>HA</h1>
                 </Link>

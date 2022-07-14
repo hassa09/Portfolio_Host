@@ -10,7 +10,6 @@ import Socialicons from './Components/social-icons/socialicons';
 function App() {
   return (
     <div className="App">
-      {/* <NewNavbar /> */}
       <Navbar />
       <Socialicons />
       <section id='intro-section'>

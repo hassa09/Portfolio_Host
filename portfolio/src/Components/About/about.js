@@ -1,5 +1,5 @@
 import '../About/about.scss';
-import pngegg from  '../../images/pngegg.png'
+import pngegg from  '../../Images/pngegg.png'
 
 function About () {
 
