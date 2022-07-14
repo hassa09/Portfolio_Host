@@ -1,5 +1,6 @@
 @import '../../color.scss';
 
+
 /*PORTFOLIO SECTION*/
 
 .portfolio-section-container{
@@ -72,7 +73,7 @@
     height: 60vh;
     
     margin-inline: 2vw;
-    background: #172A4E;
+    background:$project-background-color;
     border-radius: 10px;
 
     font-family: "Inter";
@@ -138,9 +139,12 @@ li{
 }
 
 .tab-box{
+    border-bottom: 6.5px solid $the-dot-docoration-color;
+    margin-inline: 30vw;
+    margin-bottom: 5vh;
+    padding-bottom: 2vh;
     border-bottom: 6.5px solid white;
     margin-inline: 30vw;
     margin-bottom: 5vh;
     padding-bottom: 2vh;
 }
-
