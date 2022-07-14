@@ -1,4 +1,4 @@
-import "../portfolio.css";
+import '../portfolio.scss'
 import Tab from "../TabComponent/Tab";
 
 function PortfolioSection () {

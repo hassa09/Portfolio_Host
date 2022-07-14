@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import '../../color.scss';
 
 *::before,
 *::after {
@@ -11,7 +11,7 @@
     position: sticky;
     top: 0;
 
-    background: #061A40;
+    background: $background-color;
 
     width: 100%;
     display: flex;
@@ -25,14 +25,15 @@
     position: sticky;
     display: flex;
     justify-content: center;
-
-    color: #DD6031;
-    font-family: 'inter';
-
+    position:sticky;
+    
+    color: $heading-text-colors;
+    font-family: 'inter';       
 }
+
 .header {
     .resumeLink {
-        color: black;
+        // color: black;
         margin-left: 15px;
         font-size: var(--fz-xs);
     }
@@ -59,12 +60,12 @@ ul {
             text-decoration: none;
             text-transform: uppercase;
             // color: orangered;
-            color: #FFFFFF;
+            color: $the-dot-docoration-color;
             min-width: 130px;
             padding: 10px 0;
 
             &:hover {
-                border-bottom: 3px solid #DD6031;
+                border-bottom: 3px solid $heading-text-colors;
 
             }
 
@@ -73,16 +74,16 @@ ul {
     }
 
     #resumeLink {
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
         a {
 
             min-width: 130px;
             padding: 10px 0;
-            border: 3px solid #DD6031;
+            border: 3px solid $heading-text-colors;
             border-radius: 5px;
             background-color: transparent;
             display:block;
@@ -91,9 +92,18 @@ ul {
             
             
             
-
-            color: #FFFFFF
+          
+             
+            color:$the-dot-docoration-color;
         }
+        &:hover {
+                border-bottom: 0px  $heading-text-colors;
+                background-color: $heading-text-colors; 
+                transition-duration: 0.4s;
+
+
+            }
+        
 
     }
 
@@ -113,17 +123,6 @@ ul {
 }
 
 
-.resume-button {
-
-    color: white;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    position: right absolute;
-    z-index: 1;
-    text-decoration: none;
-}
 
 //styling for mobile devices
 @media (max-width:850px) {
@@ -142,7 +141,7 @@ ul {
         align-items: center;
         position: fixed;
         inset: 0;
-        background: rgb(179, 167, 167);
+        background: $mobile-navbar-background;
         transition: 14ms ease;
     }
 
@@ -158,7 +157,7 @@ ul {
 
             a {
                 font-size: 20px;
-                color: rgb(228, 216, 216);
+                color:$mobile-navbar-background;
                 font-weight: bolder;
             }
         }

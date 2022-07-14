@@ -1,10 +1,6 @@
 import React, { useState } from 'react'
 import { Close, MenuOutlined, } from '@material-ui/icons'
-// import { Link } from 'react-router-dom'
-// import { Link, animateScroll as scroll } from "react-scroll";
 import { Link } from "react-scroll";
-
-
 import './navbar.scss';
 
 function Navbar() { 

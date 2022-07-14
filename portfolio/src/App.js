@@ -1,9 +1,10 @@
 import Navbar from './Components/Navbar/navbar';
-import './App.css';
+import './App.scss';
 import PortfolioSection from './Components/Portfolio/PortfolioSection/PortfolioSection';
 import Contact from './Components/Contact/Contact';
 import Introduction from './Components/Introduction/Introduction'
-import About from './Components/About/About'
+import About from './Components/About/about'
+import Socialicons from './Components/social-icons/socialicons';
 // import NewNavbar from './Components/NewNavbar/NewNavbar';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       {/* <NewNavbar /> */}
       <Navbar />
+      <Socialicons />
       <section id='intro-section'>
         <Introduction />
       </section>
