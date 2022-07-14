@@ -15,45 +15,33 @@
 
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     z-index: 1;
     justify-content: space-between;
-    
 }
-.nav-left{
+.navlogo{
     width: 7%;
     text-align: center;
+    position: sticky;
+    display: flex;
+    justify-content: center;
     position:sticky;
     
-    .navlogo {
-        // margin-left: 3.445rem;
-        color: $heading-text-colors;
-        font-family: 'inter';
-    }
+    color: $heading-text-colors;
+    font-family: 'inter';       
 }
-
-.nav-right{
-    width: 50%;
-
-}
-
 
 .header {
     .resumeLink {
         // color: black;
         margin-left: 15px;
         font-size: var(--fz-xs);
-
-
     }
-
-
 }
 
 .navbar {
     margin: 0 auto;
     position: right;
-
 }
 
 ul {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Close, MenuOutlined, } from '@material-ui/icons'
-import { Link } from 'react-router-dom'
+import { Link } from "react-scroll";
 import './navbar.scss';
 
 function Navbar() { 
@@ -25,11 +25,20 @@ function Navbar() {
 
 
         <div className='header'>
-            <div className='nav-left'>
                 <div className='navlogo'>
+                <Link 
+                    activeClass="active"
+                    to="intro-section"
+                    spy={true}
+                    smooth={true}
+                    offset={-150}
+                    duration={500}>
                     <h1>HA</h1>
+                </Link>
+                    
                 </div>
-            </div>
+            {/* <div className='nav-left'>
+            </div> */}
             <div className='nav-right'>
                 <nav className={active ? 'navbar':'closed'}>
                     <ul>
@@ -38,16 +47,38 @@ function Navbar() {
                         </div>
 
                         <li>
-                            <Link to='/'>About</Link>
+                            <Link 
+                                activeClass="active"
+                                to="about-section"
+                                spy={true}
+                                smooth={true}
+                                offset={-110}
+                                duration={500}>
+                                About
+                            </Link>
+                        </li>
+                       
+                        <li>
+                            <Link  
+                                activeClass="active"
+                                to="portfolio-section"
+                                spy={true}
+                                smooth={true}
+                                offset={10}
+                                duration={500}>
+                                Portfolio
+                            </Link>
                         </li>
                         <li>
-                            <Link to='/'>Skills</Link>
-                        </li>
-                        <li>
-                            <Link to='/'>Portfolio</Link>
-                        </li>
-                        <li>
-                            <Link to='/'>Contact</Link>
+                            <Link  
+                                activeClass="active"
+                                to="contact-section"
+                                spy={true}
+                                smooth={true}
+                                offset={20}
+                                duration={500}>
+                                Contact
+                            </Link>
                         </li>
                         <li id='resumeLink'>
                         {resumeLink}

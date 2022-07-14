@@ -5,7 +5,7 @@ import brack from './../../images/pngegg.png'
 function About () {
 
     return (
-        <div className="about-section-container">
+        <div className="about-section-container" id='About-Link'>
             <div className="about-section-header">
                 <h1 className="about-section-header-wording">About<em>.</em></h1>
             </div>
