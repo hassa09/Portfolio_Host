@@ -71,13 +71,13 @@ figma design
 ## :motorway: PROCESS 
 - Plan
     - Miro
-        - We set up a miro board to use as a collaborative platform for our planing. 
+        - step-1 set up a miro board to use as a collaborative platform for planing. 
    - user stories/ personas
-        - To ensure we met the needs of the user, firstly we clarified who our target audience is. With the primary purpose being employemnt, we agreed, recruiters, hiring managers and developers/designers would be our main audience. therefore, our design & development decisions were tailored to meet their (your) needs.
+        - To ensure to meet the needs of the user, firstly clarified who our target audience is. With the primary purpose being employemnt, recruiters, hiring managers and developers/designers would be our main audience. therefore, the design & development decisions were tailored to meet their (your) needs.
    - competitor analysis
-        - With the target audience clear. We reviewed a number of our 'competitor' portfolios. This was beneficial for a number of reasons, including: design, layout & content inspiration as well as an insight into potentially good practices. All of which helped to inspire our very own portfolio.
+        - With the target audience clear. and reviewed a number of portfolios. This was beneficial for a number of reasons, including: design, layout & content inspiration as well as an insight into potentially good practices. All of which helped to inspire our very own portfolio.
     - Component/ function tree
-        - Next, we used the previously gained inspiration to agree on what sections, functionality & componenta we would include. 
+        - Next, it was good idea to use the previously gained inspiration to agree on what sections, functionality & componenta that would include. 
         
 ## :art: DESIGN
 - Design
