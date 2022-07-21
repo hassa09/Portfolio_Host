@@ -31,7 +31,7 @@ figma design
 - Install react scroll-  for navbar-scroll fuction 
 
    ```sh
-   npm install react-scroll
+   npx install react-scroll
    ```
 
 
